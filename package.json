@@ -1,0 +1,35 @@
+{
+  "name": "seneca-postmark-mail",
+  "version": "0.1.0",
+  "description": "Seneca postmarkapp.com email plugin",
+  "main": "lib/postmark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/seneca-postmakr-mail.git"
+  },
+  "keywords": [
+    "seneca",
+    "postmark",
+    "mail",
+    "email",
+    "plugin"
+  ],
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "postmark": "~0.1.8",
+    "seneca": "~0.5.6"
+  },
+  "devDependencies": {
+    "seneca": "~0.5.6"
+  },
+  "files": [
+    "README.md",
+    "LICENSE.txt",
+    "lib/postmark.js"
+  ]
+}
