@@ -24,5 +24,7 @@ seneca.ready(function(err){
   },function(err,out){
     console.dir(err)
     console.dir(out)
+
+    seneca.close()
   })
 })
