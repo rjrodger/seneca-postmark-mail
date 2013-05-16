@@ -4,7 +4,7 @@
   "description": "Seneca postmarkapp.com email plugin",
   "main": "lib/postmark.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node lib/postmark.js"
   },
   "repository": {
     "type": "git",
