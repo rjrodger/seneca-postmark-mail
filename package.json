@@ -1,6 +1,6 @@
 {
   "name": "seneca-postmark-mail",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Seneca postmarkapp.com email plugin",
   "main": "lib/postmark.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rjrodger/seneca-postmakr-mail.git"
+    "url": "git://github.com/rjrodger/seneca-postmark-mail.git"
   },
   "keywords": [
     "seneca",
@@ -24,7 +24,8 @@
     "postmark": "~0.1.8"
   },
   "devDependencies": {
-    "seneca": "~0.5.6"
+    "seneca": "~0.5.x",
+    "seneca-mail": "~0.1.x"
   },
   "files": [
     "README.md",
